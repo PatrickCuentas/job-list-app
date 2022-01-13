@@ -1,5 +1,5 @@
 import { useState, useEffect, useReducer } from "react";
-import { jobsData } from "../data";
+import { jobsData } from "./data/data";
 import headerMobile from "../images/bg-header-mobile.svg";
 import headerDesktop from "../images/bg-header-desktop.svg";
 import { Card } from "./components/Card.jsx";

@@ -1,5 +1,5 @@
 import { Button } from "./Button";
-
+import PhotoSnap from "../../images/photosnap.svg"
 export const Card = ({ info, dispatch }) => {
   const {
     id,
