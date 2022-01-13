@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply font-spartan;
+    font-size: 15px;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
