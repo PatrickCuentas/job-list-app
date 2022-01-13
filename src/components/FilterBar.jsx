@@ -1,4 +1,4 @@
-import removeIcon from "../assets/images/icon-remove.svg";
+import removeIcon from "../../images/icon-remove.svg";
 
 const ButtonTag = ({ text, dispatch }) => {
   const handleDeleteTag = () => {

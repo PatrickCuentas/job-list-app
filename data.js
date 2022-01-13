@@ -2,7 +2,7 @@ export const jobsData = [
   {
     id: 1,
     company: "Photosnap",
-    logo: "./src/assets/images/photosnap.svg",
+    logo: "./images/photosnap.svg",
     new: true,
     featured: true,
     position: "Senior Frontend Developer",
@@ -17,7 +17,7 @@ export const jobsData = [
   {
     id: 2,
     company: "Manage",
-    logo: "./src/assets/images/manage.svg",
+    logo: "./images/manage.svg",
     new: true,
     featured: true,
     position: "Fullstack Developer",
@@ -32,9 +32,9 @@ export const jobsData = [
   {
     id: 3,
     company: "Account",
-    logo: "./src/assets/images/account.svg",
+    logo: "./images/account.svg",
     new: true,
-    featured: true,
+    featured: false,
     position: "Junior Frontend Developer",
     role: "Frontend",
     level: "Junior",
@@ -47,7 +47,7 @@ export const jobsData = [
   {
     id: 4,
     company: "MyHome",
-    logo: "./src/assets/images/myhome.svg",
+    logo: "./images/myhome.svg",
     new: false,
     featured: false,
     position: "Junior Frontend Developer",
@@ -62,7 +62,7 @@ export const jobsData = [
   {
     id: 5,
     company: "Loop Studios",
-    logo: "./src/assets/images/loop-studios.svg",
+    logo: "./images/loop-studios.svg",
     new: false,
     featured: false,
     position: "Software Engineer",
@@ -77,7 +77,7 @@ export const jobsData = [
   {
     id: 6,
     company: "FaceIt",
-    logo: "./src/assets/images/faceit.svg",
+    logo: "./images/faceit.svg",
     new: false,
     featured: false,
     position: "Junior Backend Developer",
@@ -92,7 +92,7 @@ export const jobsData = [
   {
     id: 7,
     company: "Shortly",
-    logo: "./src/assets/images/shortly.svg",
+    logo: "./images/shortly.svg",
     new: false,
     featured: false,
     position: "Junior Developer",
@@ -107,7 +107,7 @@ export const jobsData = [
   {
     id: 8,
     company: "Insure",
-    logo: "./src/assets/images/insure.svg",
+    logo: "./images/insure.svg",
     new: false,
     featured: false,
     position: "Junior Frontend Developer",
@@ -122,7 +122,7 @@ export const jobsData = [
   {
     id: 9,
     company: "Eyecam Co.",
-    logo: "./src/assets/images/eyecam-co.svg",
+    logo: "./images/eyecam-co.svg",
     new: false,
     featured: false,
     position: "Full Stack Engineer",
@@ -137,7 +137,7 @@ export const jobsData = [
   {
     id: 10,
     company: "The Air Filter Company",
-    logo: "./src/assets/images/the-air-filter-company.svg",
+    logo: "./images/the-air-filter-company.svg",
     new: false,
     featured: false,
     position: "Front-end Dev",
