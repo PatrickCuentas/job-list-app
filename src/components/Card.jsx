@@ -21,7 +21,7 @@ export const Card = ({ info, dispatch }) => {
     <div
       className={`${
         featured && "border-l-[6px] border-[#5DA4A5]"
-      } bg-[#fff] p-8 shadow-xl rounded-md relative`}
+      } bg-[#fff] px-[40px] py-[32px] shadow-xl rounded-md relative`}
     >
       <div className="inline-flex flex-col lg:flex-row lg:justify-between lg:items-center lg:flex">
         <div className="lg:flex lg:gap-6">

@@ -83,20 +83,23 @@ function App() {
       <div className="relative">
         <div className="bg-desaturated-dark-cyan">
           <img
-            className="w-full object-cover max-h-64"
+            style={{height:"156px"}}
+            className="w-full object-cover"
             src={w > 1024 ? headerDesktop : headerMobile}
             alt=""
           />
         </div>
       </div>
-      <div className="mx-[3.5rem] my-16 bg-light-grayish-cyan-background space-y-8 relative">
-        {filterState.length ? (
-          <FilterBar filterState={filterState} dispatch={dispatch} />
-        ) : null}
-        {jobsState.map((job) => (
-          <Card key={job.id} info={job} dispatch={dispatch} />
-        ))}
-      </div>
+      <main className="px-[24px] py-[56px] lg:py-[76px] bg-light-grayish-cyan-background">
+        <div className="lg:max-w-[1110px] lg:m-auto space-y-8 relative">
+          {filterState.length ? (
+            <FilterBar filterState={filterState} dispatch={dispatch} />
+          ) : null}
+          {jobsState.map((job) => (
+            <Card key={job.id} info={job} dispatch={dispatch} />
+          ))}
+        </div>
+      </main>
     </>
   );
 }
