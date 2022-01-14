@@ -1,5 +1,5 @@
 import { Button } from "./Button";
-import PhotoSnap from "../../images/photosnap.svg"
+import PhotoSnap from "../../images/photosnap.svg";
 export const Card = ({ info, dispatch }) => {
   const {
     id,
@@ -21,18 +21,18 @@ export const Card = ({ info, dispatch }) => {
     <div
       className={`${
         featured && "border-l-[6px] border-[#5DA4A5]"
-      } bg-[#fff] p-10 shadow-xl rounded-md relative`}
+      } bg-[#fff] p-8 shadow-xl rounded-md relative`}
     >
       <div className="inline-flex flex-col lg:flex-row lg:justify-between lg:items-center lg:flex">
-        <div className="lg:flex lg:gap-8">
+        <div className="lg:flex lg:gap-6">
           <div className="rounded-lg absolute lg:static -top-8 left-8">
             <img
-              className="w-[60px] h-[60px] lg:w-[120px] lg:h-[120px] object-cover"
+              className="w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] object-cover"
               src={logo}
               alt={`${company} logo`}
             />
           </div>
-          <div className="space-y-4">
+          <div className="space-y-2">
             <div className="flex gap-4 flex-wrap items-baseline">
               <h2 className="text- text-desaturated-dark-cyan font-bold">
                 {company}

@@ -89,7 +89,7 @@ function App() {
           />
         </div>
       </div>
-      <div className="px-8 py-16 bg-light-grayish-cyan-background space-y-16 relative">
+      <div className="mx-[3.5rem] my-16 bg-light-grayish-cyan-background space-y-8 relative">
         {filterState.length ? (
           <FilterBar filterState={filterState} dispatch={dispatch} />
         ) : null}
