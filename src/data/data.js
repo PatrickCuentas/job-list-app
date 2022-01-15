@@ -5,7 +5,7 @@ import MyHome from "../../images/myhome.svg"
 import LoopStudios from "../../images/loop-studios.svg"
 import FaceIt from "../../images/faceit.svg"
 import Shortly from "../../images/shortly.svg";
-import Insure from "../../images/insure.svg";
+import Insure from "../../images/insure.svg"
 import EyecamCo from "../../images/eyecam-co.svg";
 import TheAirFilterCompany from "../../images/the-air-filter-company.svg"
 

@@ -18,15 +18,11 @@ const existeDuplicado = (state, action) => {
 const verificarExistencia = (user, tags) => {
   const { role, level, languages, tools } = user;
   const arrList = [role, level, ...languages, ...tools];
-  let exists = false;
-  arrList.forEach((el) => {
-    if (tags.includes(el)) exists = true;
-  });
-  return exists;
+  return tags.every((tag) => arrList.includes(tag));
 };
 
 const filtrarPorTags = (setJobsState, filterState) => {
-  const tags = filterState.map(({ text }) => text);
+  const tags = filterState.map(({ text }) => text); 
   const filteredData = jobsData.filter((user) =>
     verificarExistencia(user, tags)
   );
@@ -83,7 +79,7 @@ function App() {
       <div className="relative">
         <div className="bg-desaturated-dark-cyan">
           <img
-            style={{height:"156px"}}
+            style={{ height: "156px" }}
             className="w-full object-cover"
             src={w > 1024 ? headerDesktop : headerMobile}
             alt=""
